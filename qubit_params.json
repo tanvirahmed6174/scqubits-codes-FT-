@@ -1,0 +1,50 @@
+{
+    "CR_type_1": {
+        "fluxonium": {"EC": 1, "EJ": 5, "EL": 0.8, "flux": 0.5, "cutoff": 110, "truncated_dim": 10},
+        "transmon": {"EJ": 16.5, "EC": 0.2, "ng": 0, "ncut": 110, "truncated_dim": 10},
+        "interaction": {"g_strength": 0.024},
+        "drive": {"A": 0.066, "duration": 400},
+        "simulation": {"total_truncation": 50}
+    },
+    
+    "CR_type_FUN10": {
+        "fluxonium": {"EC": 1.05, "EJ": 5, "EL": 1.27, "flux": 0.5, "cutoff": 110, "truncated_dim": 10},
+        "transmon": {"EJ": 5, "EC": 0.04, "ng": 0, "ncut": 110, "truncated_dim": 10},
+        "interaction": {"g_strength": 0.018},
+        "drive": {"A": 0.66, "duration": 400},
+        "simulation": {"total_truncation": 50}
+    },
+    
+    "CR_type_3": {
+        "fluxonium": {"EC": 1, "EJ": 4.5, "EL": 0.8, "flux": 0.5, "cutoff": 120, "truncated_dim": 10},
+        "transmon": {"EJ": 4, "EC": 0.05, "ng": 0, "ncut": 100, "truncated_dim": 10},
+        "interaction": {"g_strength": 0.025},
+        "drive": {"A": 0.5, "duration": 300},
+        "simulation": {"total_truncation": 50}
+    },
+    "CR_type_2": {
+        "_comment": "Parameter set for integer fluxonium qubit and low freq transmon.",
+        "fluxonium": {"EC": 1.47, "EJ": 6.78, "EL": 0.22, "flux": 0, "cutoff": 120, "truncated_dim": 10},
+        "transmon": {"EJ": 4, "EC": 0.05, "ng": 0, "ncut": 100, "truncated_dim": 10},
+        "interaction": {"g_strength": 0.025},
+        "drive": {"A": 1, "duration": 700},
+        "simulation": {"total_truncation": 50}
+    },
+    "CR_type_4": {
+        "_comment": "Parameter set for integer fluxonium qubit.",
+        "fluxonium": {"EC": 1, "EJ": 6.78, "EL": 0.22, "flux": 0, "cutoff": 120, "truncated_dim": 10},
+        "transmon": {"EJ": 18, "EC": 0.2, "ng": 0, "ncut": 100, "truncated_dim": 10},
+        "interaction": {"g_strength": 0.025},
+        "drive": {"A": 0.4, "duration": 300},
+        "simulation": {"total_truncation": 50}
+    },
+    
+        "CR_type_FUN5": {
+            "_comment": "Parameter set for FUN5-24-1 w1 UMA7C3.",
+            "fluxonium": {"EC": 0.92, "EJ": 3.74, "EL": 0.3676, "flux": 0.5, "cutoff": 120, "truncated_dim": 10},
+            "transmon": {"EJ": 11.30, "EC": 0.19, "ng": 0, "ncut": 100, "truncated_dim": 10},
+            "interaction": {"g_strength": 0.025},
+            "drive": {"A": 0.1, "duration": 300},
+            "simulation": {"total_truncation": 50}
+        }
+}
