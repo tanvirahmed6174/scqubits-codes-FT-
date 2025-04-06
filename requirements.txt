@@ -1,0 +1,7 @@
+numpy==1.26.4
+scipy==1.13.0
+matplotlib==3.7.1
+pandas==2.2.2
+qutip==5.0.1
+qutip-qip==0.4.0
+scqubits==0.4.0
