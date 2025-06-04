@@ -82,12 +82,12 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-EC = 1.08
-EL = 0.8
-EJ = 6
+EC = 1.06
+EL = 0.9
+EJ = 4.6
 n_g_con = 2*(2*EC/EL)**.25
 # g_a = 0.04*n_g_con/2.5
-g_a = 0.03*n_g_con/2
+g_a = 0.05/5
 # define fluxonium A
 qbtA = scq.Fluxonium(
     EJ=EJ,
@@ -97,7 +97,7 @@ qbtA = scq.Fluxonium(
     cutoff=110,
     truncated_dim=20,
 )
-qbtA_ro = scq.Oscillator(E_osc=7.27, truncated_dim=5)
+qbtA_ro = scq.Oscillator(E_osc=6.7, truncated_dim=5)
 # define the common Hilbert space
 hilbertspace = scq.HilbertSpace([qbtA, qbtA_ro])
 
